@@ -90,7 +90,7 @@ body {
     transform: translate(-50%);
     width: 16px;
     height: 16px;
-    background-image: url('img/burger.svg');
+    background-image: url('img/menu/menu-burger.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -191,21 +191,21 @@ body {
     top: 10px;
     width: 20px;
     height: 21px;
-    background-image: url('img/repair.svg');
+    background-image: url('img/menu/menu-repair.svg');
 }
 
 .menu-user__item--status::after {
     top: 10px;
     width: 20px;
     height: 21px;
-    background-image: url('img/status.svg');
+    background-image: url('img/menu/menu-status.svg');
 }
 
 .menu-user__item--call::after {
 
     @media (min-width: 768px) {
         display: block;
-        background-image: url('img/call.svg');
+        background-image: url('img/menu/menu-call.svg');
     }
 }
 
@@ -213,7 +213,7 @@ body {
 
     @media (min-width: 768px) {
         display: block;
-        background-image: url('img/send.svg');
+        background-image: url('img/menu/menu-send.svg');
     }
 }
 
@@ -221,7 +221,7 @@ body {
 
     @media (min-width: 768px) {
         display: block;
-        background-image: url('img/profile.svg');
+        background-image: url('img/menu/menu-profile.svg');
     }
 }
 
@@ -453,7 +453,7 @@ body {
     transform: translateY(-50%);
     width: 8px;
     height: 10px;
-    background-image: url('img/arrow.svg');
+    background-image: url('img/services/services-arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
